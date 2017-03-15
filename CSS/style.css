@@ -1,7 +1,6 @@
 /*Global layout styles*/
 * {
 	box-sizing: border-box;
-/*	border: 1px solid tomato;*/
 }
 
 /*------------Main Styles----------*/
@@ -17,14 +16,15 @@ body {
 }
 /*------------Search Styles----------*/
 
-input {
+input[class="search"]{
 	color: #cecece;
 	border: 1px solid;
+	border-radius: 3px;
 	width: 90%;
 	font-size: 16px;
-	height: 40px;
+	height: 30px;
 	padding-left: 12px;
-	margin: 10px auto;
+	margin: 20px auto 0px;
 
 }
 
@@ -47,16 +47,16 @@ input {
 
 #gallery img {
 	width: 100%;
+	height: 100%;
+	padding: 15px;
 }
 
 #gallery li {
-	width: 45%;
-	height: 45%;
-	margin-bottom: 10px;
+	width: 50%;
+	height: 50%;
+	margin: 0;
+	text-align: center;
 }
-
-
-
 
 
 
@@ -65,27 +65,38 @@ input {
 /*------------MEDIA QUERIES(Min-Width-768px)----------*/
 
 @media(min-width: 768px) {
-	ul {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 0 auto;
-		justify-content: space-around;
+
+	#gallery ul {
+		width: 95%;
 	}
 
-	li {
-		width: 45%;
-	}
-	img {
-/*		width: 100%;*/
-		padding: 0%;
+	#gallery li {
+			width: 33%;
+			height: 33%;
+		}
+
+	#gallery img {
+		padding: 25px;
 	}
 
+	input[class="search"]{
+		width: 50%;
+	}
 }
-
-
 /*------------MEDIA QUERIES(Min-Width-1024px)----------*/
 
 @media(min-width: 1024px) {
 
+	#gallery ul {
+		width: 90%;
+	}
 
+	#gallery li {
+			width: 25%;
+			height: 25%;
+		}
+
+	input[class="search"]{
+		width: 42%;
+	}
 }
