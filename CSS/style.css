@@ -58,8 +58,21 @@ input[class="search"]{
 	text-align: center;
 }
 
+/*LIGHTBOX STYLING*/
+#overlay {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	text-align: center;
+}
 
+#overlay img {
 
+}
 
 
 /*------------MEDIA QUERIES(Min-Width-768px)----------*/
