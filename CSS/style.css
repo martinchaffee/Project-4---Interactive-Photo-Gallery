@@ -71,9 +71,16 @@ input[class="search"]{
 }
 
 #overlay img {
-
+	height: 60%;
+	margin-top: 10%;
 }
 
+#overlay p {
+	width: 600px;
+	color: white;
+	margin: auto;
+	margin-top: 30px;
+}
 
 /*------------MEDIA QUERIES(Min-Width-768px)----------*/
 
