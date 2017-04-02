@@ -32,11 +32,6 @@ input[class="search"]{
 
 
 #gallery {
-	margin: auto;
-}
-
-#gallery ul {
-	list-style: none;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -45,58 +40,28 @@ input[class="search"]{
 	justify-content: space-around;
 }
 
+#gallery a {
+	width: 90%;
+	height: 90%;
+}
+
 #gallery img {
-	width: 100%;
+	padding-top: 15px;
 	height: 100%;
-	padding: 15px;
-}
-
-#gallery li {
-	width: 50%;
-	height: 50%;
-	margin: 0;
-	text-align: center;
-}
-
-/*LIGHTBOX STYLING
-#mylightbox {
-	background: rgba(0,0,0,0.7);
 	width: 100%;
-	height: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	display: none;
-	text-align: center;
 }
 
-#mylightbox img {
-	height: 60%;
-	margin-top: 10%;
-}
-
-#mylightbox p {
-	width: 600px;
-	color: white;
-	margin: auto;
-	margin-top: 30px;
-}
-*/
 /*------------MEDIA QUERIES(Min-Width-768px)----------*/
 
 @media(min-width: 768px) {
 
-	#gallery ul {
-		width: 95%;
-	}
-
-	#gallery li {
+	#gallery a {
 			width: 33%;
 			height: 33%;
 		}
 
 	#gallery img {
-		padding: 25px;
+		padding: 15px;
 	}
 
 	input[class="search"]{
@@ -106,17 +71,8 @@ input[class="search"]{
 /*------------MEDIA QUERIES(Min-Width-1024px)----------*/
 
 @media(min-width: 1024px) {
-
-	#gallery ul {
-		width: 90%;
-	}
-
-	#gallery li {
+	#gallery a {
 			width: 25%;
 			height: 25%;
 		}
-
-	input[class="search"]{
-		width: 42%;
-	}
 }
