@@ -32,6 +32,8 @@ input[class="search"]{
 
 
 #gallery {
+	height: 90%;
+	width: 90%;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -41,12 +43,12 @@ input[class="search"]{
 }
 
 #gallery a {
-	width: 90%;
-	height: 90%;
+	width: 80%;
+	height: 80%;
 }
 
 #gallery img {
-	padding-top: 15px;
+	padding-top: 50px;
 	height: 100%;
 	width: 100%;
 }
@@ -61,7 +63,7 @@ input[class="search"]{
 		}
 
 	#gallery img {
-		padding: 15px;
+		padding: 25px;
 	}
 
 	input[class="search"]{
@@ -93,10 +95,22 @@ input[class="search"]{
 	/*Set width to 600px, */
 }
 
-.lb-data .lb-number{
+.lb-data .lb-close {
 	display: none;
 }
 
-.lb-data .lb-close {
-	display: none;
+.lb-details div {
+	display: float !important;
+	justify-content: center;
+}
+
+.lb-dataContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.lb-data .lb-details {
+	float: none;
+	width: 100%;
+	margin-top: 35px;
 }
