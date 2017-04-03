@@ -76,3 +76,27 @@ input[class="search"]{
 			height: 25%;
 		}
 }
+
+
+/*Lightbox Styling*/
+#lightboxOverlay {
+		opacity: 0.7;
+
+}
+
+.lightbox .lb-image {
+	border: 0;
+	border-radius: 0;
+}
+
+.lb-data .lb-caption {
+	/*Set width to 600px, */
+}
+
+.lb-data .lb-number{
+	display: none;
+}
+
+.lb-data .lb-close {
+	display: none;
+}
