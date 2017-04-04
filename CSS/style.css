@@ -39,7 +39,7 @@ input[class="search"]{
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 #gallery a {
